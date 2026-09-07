@@ -239,7 +239,7 @@ Sub: CA Foundation MTP Series II Sept 2026
 
 ---
 
-: 23. Free rider problem occurs due to:
+Q: 23. Free rider problem occurs due to:
 A) Low costs
 B) Non-excludability
 C) Unemployment
@@ -250,7 +250,7 @@ Sub: CA Foundation MTP Series II Sept 2026
 
 ---
 
-: 24. What implications does resource scarcity have for the satisfaction of wants?
+Q: 24. What implications does resource scarcity have for the satisfaction of wants?
 A) Not all wants can be satisfied
 B) We will never need to make choices
 C) We must decrease our individual wants
@@ -261,7 +261,7 @@ Sub: CA Foundation MTP Series II Sept 2026
 
 ---
 
-: 25. Who is the main exponent of Marginal Utility Analysis?
+Q: 25. Who is the main exponent of Marginal Utility Analysis?
 A) Keynes
 B) Hicks
 C) Paul Samuelson
@@ -272,7 +272,7 @@ Sub: CA Foundation MTP Series II Sept 2026
 
 ---
 
-: 26. Purchasing power of money falls when:
+Q: 26. Purchasing power of money falls when:
 A) Price level increases
 B) Income level increases
 C) Money supply falls
@@ -283,7 +283,7 @@ Sub: CA Foundation MTP Series II Sept 2026
 
 ---
 
-: 27. _____ is the total volume of the commodity which can be brought into the market for sale at short notice.
+Q: 27. _____ is the total volume of the commodity which can be brought into the market for sale at short notice.
 A) Demand
 B) Supply
 C) Stock
@@ -294,7 +294,7 @@ Sub: CA Foundation MTP Series II Sept 2026
 
 ---
 
-: 28. Production means:
+Q: 28. Production means:
 A) Capital goods only
 B) Consumer goods only
 C) Both capital and consumer goods
@@ -349,7 +349,7 @@ Sub: CA Foundation MTP Series II Sept 2026
 
 ---
 
-: 33. Which of the following analytical tools is commonly used in Business Economics?
+Q: 33. Which of the following analytical tools is commonly used in Business Economics?
 A) Supply & Demand equilibrium model
 B) Cost-benefit analysis
 C) Price elasticity of demand
@@ -360,7 +360,7 @@ Sub: CA Foundation MTP Series II Sept 2026
 
 ---
 
-: 34. In the basic economic problems list, "For whom to produce" relates to:
+Q: 34. In the basic economic problems list, "For whom to produce" relates to:
 A) Distribution of output
 B) Price control
 C) Budget deficit
@@ -371,7 +371,7 @@ Sub: CA Foundation MTP Series II Sept 2026
 
 ---
 
-: 35. Which economic system most emphasizes consumer choice?
+Q: 35. Which economic system most emphasizes consumer choice?
 A) Capitalist
 B) Socialist
 C) Mixed
@@ -381,7 +381,7 @@ Exp: In a capitalist market economy, consumer sovereignty guides production deci
 Sub: CA Foundation MTP Series II Sept 2026
 ---
 
-: 36. A product with income elasticity less than one but greater than zero is:
+Q: 36. A product with income elasticity less than one but greater than zero is:
 A) Inferior good
 B) Necessity
 C) Luxury
@@ -392,7 +392,7 @@ Sub: CA Foundation MTP Series II Sept 2026
 
 ---
 
-: 37. Which factor causes a rightward shift of the supply curve?
+Q: 37. Which factor causes a rightward shift of the supply curve?
 A) Increase in input cost
 B) Decrease in technology
 C) Improvement in technology
@@ -403,7 +403,7 @@ Sub: CA Foundation MTP Series II Sept 2026
 
 ---
 
-: 38. For a discriminating monopolist, price discrimination depends mainly on:
+Q: 38. For a discriminating monopolist, price discrimination depends mainly on:
 A) Cost of production
 B) Size of market
 C) Elasticity of demand
@@ -414,7 +414,7 @@ Sub: CA Foundation MTP Series II Sept 2026
 
 ---
 
-: 39. If a monopolistic competitive firm earns super-normal profits in the short run, in the long run:
+Q: 39. If a monopolistic competitive firm earns super-normal profits in the short run, in the long run:
 A) Profits increase
 B) Firms exit the market
 C) New firms enter, reducing profits
@@ -425,7 +425,7 @@ Sub: CA Foundation MTP Series II Sept 2026
 
 ---
 
-: 40. Which market form's demand curve is identical to its industry demand?
+Q: 40. Which market form's demand curve is identical to its industry demand?
 A) Perfect competition
 B) Monopolistic competition
 C) Monopoly
@@ -436,7 +436,7 @@ Sub: CA Foundation MTP Series II Sept 2026
 
 ---
 
-: 41. The kinked demand curve in oligopoly explains:
+Q: 41. The kinked demand curve in oligopoly explains:
 A) Price stability
 B) Constant MR
 C) Homogeneous products
@@ -447,7 +447,7 @@ Sub: CA Foundation MTP Series II Sept 2026
 
 ---
 
-: 42. Which type of industry is typically most sensitive to business cycle fluctuations?
+Q: 42. Which type of industry is typically most sensitive to business cycle fluctuations?
 A) Non-durable goods
 B) Durable and capital goods
 C) Basic services
@@ -458,7 +458,7 @@ Sub: CA Foundation MTP Series II Sept 2026
 
 ---
 
-: 43. Understanding business cycles helps investors primarily because:
+Q: 43. Understanding business cycles helps investors primarily because:
 A) It ensures profits
 B) It aids in timing market entry and exits
 C) It eliminates risk
@@ -469,7 +469,7 @@ Sub: CA Foundation MTP Series II Sept 2026
 
 ---
 
-: 44. Which classical trade theory explains international trade purely on differences in labour productivity?
+Q: 44. Which classical trade theory explains international trade purely on differences in labour productivity?
 A) Heckscher-Ohlin theory
 B) Ricardian comparative advantage theory
 C) Opportunity cost theory
@@ -480,7 +480,7 @@ Sub: CA Foundation MTP Series II Sept 2026
 
 ---
 
-: 45. Voluntary export restraints are classified as:
+Q: 45. Voluntary export restraints are classified as:
 A) Tariff-based barriers
 B) Non-tariff trade barriers
 C) Export subsidies
@@ -491,7 +491,7 @@ Sub: CA Foundation MTP Series II Sept 2026
 
 ---
 
-: 46. Modes of FDI include:
+Q: 46. Modes of FDI include:
 A) Export quotas only
 B) Joint ventures, mergers and greenfield investments
 C) Preferential tariffs
@@ -502,7 +502,7 @@ Sub: CA Foundation MTP Series II Sept 2026
 
 ---
 
-: 47. When a government officially lowers its currency value under a fixed regime, it is called:
+Q: 47. When a government officially lowers its currency value under a fixed regime, it is called:
 A) Depreciation
 B) Devaluation
 C) Appreciation
@@ -513,7 +513,7 @@ Sub: CA Foundation MTP Series II Sept 2026
 
 ---
 
-: 48. In the Cambridge cash-balance approach, money demand is expressed as:
+Q: 48. In the Cambridge cash-balance approach, money demand is expressed as:
 A) M = PT/V
 B) Md = kPY
 C) MV = PT
@@ -524,7 +524,7 @@ Sub: CA Foundation MTP Series II Sept 2026
 
 ---
 
-: 49. A key objective of monetary policy is to:
+Q: 49. A key objective of monetary policy is to:
 A) Eliminate the banking system
 B) Achieve price stability and sustainable growth
 C) Set tax policy
@@ -535,7 +535,7 @@ Sub: CA Foundation MTP Series II Sept 2026
 
 ---
 
-: 50. A tax imposed equal to the external marginal cost of pollution is called a:
+Q: 50. A tax imposed equal to the external marginal cost of pollution is called a:
 A) Tariff
 B) Pigouvian tax
 C) Subsidy
