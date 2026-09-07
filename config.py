@@ -19,6 +19,7 @@ QUIZ_CLEANUP_INTERVAL_MINUTES = 15
 QUIZ_AUTO_DELETE_HOURS = 24
 MOCK_TEST_START_DELAY_SECONDS = 3
 INITIAL_QUIZ_DELAY_SECONDS = 10
+MOCK_TEST_INACTIVITY_LIMIT = 5  # Number of consecutive unanswered questions before auto-pause
 
 # 🌙 Daily Midnight Cleanup Settings
 DAILY_CLEANUP_ENABLED = True
