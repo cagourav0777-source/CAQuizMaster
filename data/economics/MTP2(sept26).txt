@@ -305,7 +305,7 @@ Sub: CA Foundation MTP Series II Sept 2026
 
 ---
 
-: 29. Economic Cost is equal to:
+Q: 29. Economic Cost is equal to:
 A) Implicit Cost
 B) Explicit Cost
 C) Explicit Cost + Implicit Cost
@@ -316,7 +316,7 @@ Sub: CA Foundation MTP Series II Sept 2026
 
 ---
 
-: 30. Even with a lower rate of interest, demand for credit declines during:
+Q: 30. Even with a lower rate of interest, demand for credit declines during:
 A) Contraction Phase
 B) Expansion Phase
 C) Peak
@@ -327,7 +327,7 @@ Sub: CA Foundation MTP Series II Sept 2026
 
 ---
 
-: 31. According to Keynes, fluctuations in economic activity are due to fluctuations in:
+Q: 31. According to Keynes, fluctuations in economic activity are due to fluctuations in:
 A) Supply of resources
 B) Aggregate effective demand
 C) Price
@@ -338,7 +338,7 @@ Sub: CA Foundation MTP Series II Sept 2026
 
 ---
 
-: 32. Which is the primary tool for government to influence aggregate demand according to Keynesian economics?
+Q: 32. Which is the primary tool for government to influence aggregate demand according to Keynesian economics?
 A) Monetary policy
 B) Fiscal policy
 C) Supply-side policies
@@ -1008,7 +1008,7 @@ Sub: CA Foundation MTP Series II Sept 2026
 
 ---
 
-: 93. Long run production function related to:
+Q: 93. Long run production function related to:
 A) Returns to a factor
 B) Returns to scale
 C) Both a and b
@@ -1019,7 +1019,7 @@ Sub: CA Foundation MTP Series II Sept 2026
 
 ---
 
-: 94. Which of the following is not a condition of perfect competition?
+Q: 94. Which of the following is not a condition of perfect competition?
 A) A large number of firms
 B) Perfect mobility of factors
 C) Informative advertising to ensure that consumers have good information.
@@ -1030,7 +1030,7 @@ Sub: CA Foundation MTP Series II Sept 2026
 
 ---
 
-: 95. Peaks and troughs of the business cycle are known collectively as:
+Q: 95. Peaks and troughs of the business cycle are known collectively as:
 A) Volatility
 B) Turning points
 C) Equilibrium points
@@ -1041,7 +1041,7 @@ Sub: CA Foundation MTP Series II Sept 2026
 
 ---
 
-: 96. Government borrowings from foreign governments and institutions:
+Q: 96. Government borrowings from foreign governments and institutions:
 A) Capital receipt
 B) Revenue receipt
 C) Accounts for fiscal deficit
@@ -1052,7 +1052,7 @@ Sub: CA Foundation MTP Series II Sept 2026
 
 ---
 
-: 97. Atal Tinkering lab is an initiative by which of the following institution?
+Q: 97. Atal Tinkering lab is an initiative by which of the following institution?
 A) Niti Aayog
 B) CBSE
 C) National Ayush Mission
@@ -1063,7 +1063,7 @@ Sub: CA Foundation MTP Series II Sept 2026
 
 ---
 
-: 98. Which type of investment is more influenced by government regulations and policies?
+Q: 98. Which type of investment is more influenced by government regulations and policies?
 A) FDI
 B) FPI
 C) Both FDI and FPI equally
