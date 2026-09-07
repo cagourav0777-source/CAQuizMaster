@@ -117,7 +117,7 @@ async def send_quiz_to_chat(context: ContextTypes.DEFAULT_TYPE, chat_id: int, su
             )
         return True
     except Forbidden:
-        await db.set_chat_active_status(chat_id, False)
+        await db.delete_chat(chat_id)
         return False
     except Exception as e:
         logger.error(f"Error sending quiz to {chat_id}: {e}")
@@ -849,7 +849,6 @@ async def poll_answer_handler(update: Update, context: ContextTypes.DEFAULT_TYPE
             user_score["correct"] += 1
             user_score["total_time"] += elapsed
 
-        # Mark question as answered and reset inactivity streak
         session["current_question_answered"] = True
         session["unanswered_streak"] = 0
 
@@ -1072,7 +1071,7 @@ async def chat_member_update(update: Update, context: ContextTypes.DEFAULT_TYPE)
             parse_mode=ParseMode.HTML,
         )
     elif status in [ChatMemberStatus.LEFT, ChatMemberStatus.BANNED]:
-        await db.set_chat_active_status(chat.id, False)
+        await db.delete_chat(chat.id)
         if context.job_queue:
             for j in context.job_queue.get_jobs_by_name(get_job_name(chat.id)):
                 j.schedule_removal()
@@ -1174,7 +1173,7 @@ async def broadcast_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> N
 
         except Forbidden:
             failed_count += 1
-            await db.set_chat_active_status(target_id, False)
+            await db.delete_chat(target_id)
         except Exception as e:
             failed_count += 1
             logger.warning(f"Broadcast failed for {target_id}: {e}")
@@ -1265,8 +1264,8 @@ async def stats_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     text = (
         "📊 <b>CA Foundation Quiz Master Stats</b>\n\n"
         "👥 <b>Bot Community:</b>\n"
-        f"• 👤 <b>Total Users (DMs):</b> <code>{db_stats['total_users']}</code>\n"
-        f"• 👥 <b>Total Groups:</b> <code>{db_stats['total_groups']}</code> (Active: <code>{db_stats['active_groups']}</code>)\n\n"
+        f"• 👤 <b>Users (DMs):</b> <code>{db_stats['total_users']}</code>\n"
+        f"• 👥 <b>Active Groups:</b> <code>{db_stats['active_groups']}</code>\n\n"
         "📚 <b>Question Bank:</b>\n"
         f"• 📝 <b>Total Questions:</b> <code>{stats['total']}</code>\n"
         f"• 🎯 <b>Served in this Chat:</b> <code>{len(served)}</code>"
