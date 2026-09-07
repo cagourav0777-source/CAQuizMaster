@@ -17,7 +17,7 @@ class Database:
         self.served_questions = self.db["served_questions"]
         self.reports = self.db["reports"]
         self.settings = self.db["system_settings"]
-        self.active_polls = self.db["active_polls"]  # 24h auto-delete tracking
+        self.active_polls = self.db["active_polls"]
 
     async def init_db(self) -> None:
         try:
@@ -69,6 +69,10 @@ class Database:
             {"$set": {"is_active": 1 if is_active else 0}},
         )
 
+    async def delete_chat(self, chat_id: int) -> None:
+        """Deletes a chat from the database completely when the bot leaves or is removed."""
+        await self.chats.delete_one({"chat_id": chat_id})
+
     async def get_chat_settings(self, chat_id: int) -> Optional[Dict[str, Any]]:
         return await self.chats.find_one({"chat_id": chat_id})
 
@@ -82,11 +86,9 @@ class Database:
 
     async def get_system_stats(self) -> Dict[str, int]:
         total_users = await self.chats.count_documents({"chat_type": "private"})
-        total_groups = await self.chats.count_documents({"chat_type": {"$in": ["group", "supergroup"]}})
         active_groups = await self.chats.count_documents({"chat_type": {"$in": ["group", "supergroup"]}, "is_active": 1})
         return {
             "total_users": total_users,
-            "total_groups": total_groups,
             "active_groups": active_groups,
         }
 
