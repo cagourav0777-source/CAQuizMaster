@@ -1,0 +1,1097 @@
+Q: 1. In the four-sector model, which of the following is not a leakage from the circular flow?
+A) Saving
+B) Investment
+C) Taxes
+D) Imports
+Ans: B
+Exp: In a four-sector model, savings, taxes, and imports are leakages (withdrawals), while investment, government expenditure, and exports are injections.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+Q: 2. If income rises by 200 and consumption rises by 150, MPC is:
+A) 0.75
+B) 0.5
+C) 0.6
+D) 0.8
+Ans: A
+Exp: Marginal Propensity to Consume (MPC) = Change in Consumption / Change in Income = 150 / 200 = 0.75.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+Q: 3. Which one of the following is a transfer payment?
+A) Interest on loan
+B) Rent received
+C) Pension
+D) Salary
+Ans: C
+Exp: Old-age pensions and scholarships are unilateral transfer payments made without any corresponding factor service rendered in return.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+Q: 4. Which method of National Income estimation measures value added at each stage?
+A) Income Method
+B) Product Method
+C) Expenditure Method
+D) Transfer Method
+Ans: B
+Exp: The Product Method (Value Added Method) measures national income by aggregating the net value added at each stage of production.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+Q: 5. Mixed income of self-employed includes:
+A) Rent and Interest only
+B) Wages only
+C) Capital and Labour income that cannot be separated
+D) Only profit
+Ans: C
+Exp: Mixed income represents the combined factor earnings of self-employed individuals where returns to labour and capital cannot be segregated.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+Q: 6. The Heckscher-Ohlin theory bases trade on:
+A) Labour productivity
+B) Factor endowments
+C) Network effects
+D) Currency arbitrage
+Ans: B
+Exp: The Heckscher-Ohlin theory explains that comparative advantage in international trade arises from differences in national factor endowments.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+Q: 7. A tariff that combines both value-based and quantity-based charges is called:
+A) Preferential tariff
+B) Mixed tariff
+C) Compound tariff
+D) Trigger price
+Ans: C
+Exp: A compound tariff is a duty consisting of both a specific charge per unit and an ad valorem percentage of value on the imported good.
+Sub: CA Foundation MTP Series II Sept 2026
+---
+
+Q: 8. Sanitary and Phytosanitary (SPS) measures aim to protect:
+A) Trademarks
+B) Intellectual property
+C) Human, animal and plant life
+D) Software exports
+Ans: C
+Exp: SPS measures under WTO regulations are standards applied to protect human, animal, and plant life from diseases, toxins, and contaminants.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+Q: 9. WTO's dispute resolution functions are carried out by:
+A) Trade Policy Review Mechanism
+B) Appellate Body
+C) Ministerial Council
+D) TRIPS Council
+Ans: B
+Exp: In the WTO dispute settlement framework, appeals against panel findings are examined and resolved by the standing Appellate Body.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+Q: 10. Which of the following is a qualitative instrument of monetary policy?
+A) Repo rate
+B) CRR
+C) Margin requirement
+D) OMO
+Ans: C
+Exp: Margin requirement is a qualitative (selective) credit control tool, whereas Repo rate, CRR, and Open Market Operations are quantitative instruments.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+Q: 11. Money Supply (M) is equal to:
+A) M1 + M2
+B) CRR × SLR
+C) Money Multiplier × Base Money
+D) GDP × Inflation
+Ans: C
+Exp: Total Money Supply is the product of the Money Multiplier (m) and High-Powered/Base Money (Reserve Money).
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+Q: 12. Which is a consequence of high money multiplier?
+A) High inflation risk
+B) Tight liquidity
+C) Increase in SLR
+D) Decline in GDP
+Ans: A
+Exp: A higher money multiplier expands broad credit and liquidity from base money, increasing money supply and aggregate demand, which elevates inflation risk.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+Q: 13. The Monetary Policy Committee sets:
+A) SLR
+B) CRR
+C) Repo rate
+D) Bank rate
+Ans: C
+Exp: The Monetary Policy Committee (MPC) of the Reserve Bank of India is legally tasked with determining the policy repo rate.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+Q: 14. Which initiative focuses on sustainable lifestyle choices?
+A) NDAP
+B) Shoonya
+C) LIFE
+D) Make in India
+Ans: C
+Exp: Mission LiFE (Lifestyle for Environment) is a global initiative led by India promoting sustainable consumer lifestyles and mindful resource utilization.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+Q: 15. Which program was launched to promote organic farming?
+A) MIDH
+B) PMFBY
+C) PKVY
+D) E-NAM
+Ans: C
+Exp: Paramparagat Krishi Vikas Yojana (PKVY) was launched to promote traditional organic farming and biological pest/soil management.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+Q: 16. Which organisation launched India Policy Insights (IPI)?
+A) SEBI
+B) RBI
+C) NITI Aayog
+D) DPIIT
+Ans: C
+Exp: NITI Aayog launched the India Policy Insights (IPI) platform for data-driven diagnostics and state-level policy evaluations.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+Q: 17. Which of the following affects real exchange rate directly?
+A) Spot rate only
+B) Domestic interest rate
+C) Domestic and foreign price levels
+D) Central bank reserves
+Ans: C
+Exp: Real Exchange Rate = Nominal Exchange Rate × (Domestic Price Level / Foreign Price Level); thus, domestic and foreign price levels directly determine it.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+Q: 18. What is a liquidity trap?
+A) Money becomes illiquid due to inflation
+B) Money supply becomes ineffective at zero interest rate
+C) Interest rate becomes infinite
+D) Bonds have negative yield
+Ans: B
+Exp: A liquidity trap is an economic situation where interest rates approach zero and money demand becomes perfectly elastic, rendering monetary expansion ineffective.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+Q: 19. Which economist applied capital asset demand theory to money?
+A) Keynes
+B) Tobin
+C) Baumol
+D) Milton Friedman
+Ans: D
+Exp: Milton Friedman restated the Quantity Theory of Money by treating the demand for money as a direct application of capital asset demand theory.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+Q: 20. Which statement about the Finance Bill is correct?
+A) It authorizes public borrowing
+B) It includes details of tax proposals
+C) It gives expenditure estimates
+D) It is introduced in Rajya Sabha
+Ans: B
+Exp: The Finance Bill embodies the government's fiscal tax proposals and amendments to direct and indirect tax laws for the forthcoming year.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+Q: 21. Keynes advocated increased government spending to tackle:
+A) Hyperinflation
+B) Balance of payments deficit
+C) Recession and unemployment
+D) Asset bubbles
+Ans: C
+Exp: Keynesian economics prescribes expansionary fiscal spending to stimulate effective demand and eliminate deflationary gaps during recessions.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+Q: 22. One major limitation of fiscal policy is:
+A) Absence of borrowing options
+B) Difficulty in cutting government salaries
+C) Implementation lags
+D) Volatility of currency
+Ans: C
+Exp: Fiscal policy interventions suffer from significant implementation, recognition, and legislative decision-making lags.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+: 23. Free rider problem occurs due to:
+A) Low costs
+B) Non-excludability
+C) Unemployment
+D) High production
+Ans: B
+Exp: The free-rider problem arises in public goods because of non-excludability, allowing individuals to benefit without contributing to production costs.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+: 24. What implications does resource scarcity have for the satisfaction of wants?
+A) Not all wants can be satisfied
+B) We will never need to make choices
+C) We must decrease our individual wants
+D) New natural resources are necessary in every case
+Ans: A
+Exp: Because resources are limited and human wants are unlimited, an economy cannot satisfy all wants simultaneously, necessitating economic choice.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+: 25. Who is the main exponent of Marginal Utility Analysis?
+A) Keynes
+B) Hicks
+C) Paul Samuelson
+D) Marshall
+Ans: D
+Exp: Alfred Marshall was the primary architect and exponent of Cardinal Utility and Marginal Utility Analysis.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+: 26. Purchasing power of money falls when:
+A) Price level increases
+B) Income level increases
+C) Money supply falls
+D) Price level decreases
+Ans: A
+Exp: The purchasing power of money is inversely related to the general price level; when prices rise (inflation), real purchasing power falls.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+: 27. _____ is the total volume of the commodity which can be brought into the market for sale at short notice.
+A) Demand
+B) Supply
+C) Stock
+D) Sales
+Ans: C
+Exp: Stock refers to the total volume of a good physically available with sellers that can be brought out for market sale at short notice.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+: 28. Production means:
+A) Capital goods only
+B) Consumer goods only
+C) Both capital and consumer goods
+D) Neither
+Ans: C
+Exp: In economics, production denotes the creation of economic utility through the manufacture of both tangible consumer goods and capital goods.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+: 29. Economic Cost is equal to:
+A) Implicit Cost
+B) Explicit Cost
+C) Explicit Cost + Implicit Cost
+D) Fixed Cost + Variable Cost
+Ans: C
+Exp: Economic Cost encompasses both explicit accounting costs (out-of-pocket expenses) and implicit costs (opportunity costs of self-owned resources).
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+: 30. Even with a lower rate of interest, demand for credit declines during:
+A) Contraction Phase
+B) Expansion Phase
+C) Peak
+D) Recovery
+Ans: A
+Exp: During a contraction (recession) phase, low business confidence and spare capacity cause investment and credit demand to fall despite lower interest rates.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+: 31. According to Keynes, fluctuations in economic activity are due to fluctuations in:
+A) Supply of resources
+B) Aggregate effective demand
+C) Price
+D) Money supply
+Ans: B
+Exp: Keynesian macroeconomic theory attributes business cycles and swings in real output primarily to instability in aggregate effective demand.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+: 32. Which is the primary tool for government to influence aggregate demand according to Keynesian economics?
+A) Monetary policy
+B) Fiscal policy
+C) Supply-side policies
+D) Exchange rate policy
+Ans: B
+Exp: Keynes considered fiscal policy (government spending and taxation) as the most potent and direct lever to regulate aggregate demand.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+: 33. Which of the following analytical tools is commonly used in Business Economics?
+A) Supply & Demand equilibrium model
+B) Cost-benefit analysis
+C) Price elasticity of demand
+D) Balance of payments
+Ans: B
+Exp: Cost-benefit analysis is an essential pragmatic tool used in business economics for project appraisal and managerial resource allocation.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+: 34. In the basic economic problems list, "For whom to produce" relates to:
+A) Distribution of output
+B) Price control
+C) Budget deficit
+D) Trade policy
+Ans: A
+Exp: The central problem of "For whom to produce" refers to the distribution of national income and produced goods among households in society.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+: 35. Which economic system most emphasizes consumer choice?
+A) Capitalist
+B) Socialist
+C) Mixed
+D) Traditional
+Ans: A
+Exp: In a capitalist market economy, consumer sovereignty guides production decisions, offering the highest degree of consumer choice.
+Sub: CA Foundation MTP Series II Sept 2026
+---
+
+: 36. A product with income elasticity less than one but greater than zero is:
+A) Inferior good
+B) Necessity
+C) Luxury
+D) Unrelated
+Ans: B
+Exp: Necessities are essential goods characterized by positive but income-inelastic demand (0 < Ey < 1).
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+: 37. Which factor causes a rightward shift of the supply curve?
+A) Increase in input cost
+B) Decrease in technology
+C) Improvement in technology
+D) Increase in taxes
+Ans: C
+Exp: Technological improvements lower per-unit production costs, causing producers to supply more at each price level (shifting supply to the right).
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+: 38. For a discriminating monopolist, price discrimination depends mainly on:
+A) Cost of production
+B) Size of market
+C) Elasticity of demand
+D) Government regulation
+Ans: C
+Exp: A discriminating monopolist charges differing prices in separate sub-markets based primarily on differences in the price elasticity of demand.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+: 39. If a monopolistic competitive firm earns super-normal profits in the short run, in the long run:
+A) Profits increase
+B) Firms exit the market
+C) New firms enter, reducing profits
+D) Market price increases
+Ans: C
+Exp: Free entry of new firms increases industry supply and customer choices, eroding short-run abnormal profits until only normal profits remain.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+: 40. Which market form's demand curve is identical to its industry demand?
+A) Perfect competition
+B) Monopolistic competition
+C) Monopoly
+D) Oligopoly
+Ans: C
+Exp: Under a monopoly, because there is only a single firm in the market, the firm is the industry and faces the entire market demand curve.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+: 41. The kinked demand curve in oligopoly explains:
+A) Price stability
+B) Constant MR
+C) Homogeneous products
+D) Only one seller
+Ans: A
+Exp: Paul Sweezy's kinked demand curve model accounts for price rigidity (stickiness) in oligopolistic markets.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+: 42. Which type of industry is typically most sensitive to business cycle fluctuations?
+A) Non-durable goods
+B) Durable and capital goods
+C) Basic services
+D) Government services
+Ans: B
+Exp: Capital goods and durable consumer goods investments are discretionary and easily postponable during downturns, making them highly cyclical.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+: 43. Understanding business cycles helps investors primarily because:
+A) It ensures profits
+B) It aids in timing market entry and exits
+C) It eliminates risk
+D) It predicts inflation exactly
+Ans: B
+Exp: Tracking macroeconomic business cycles enables investors to identify turning points and effectively time their investment entries and exits.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+: 44. Which classical trade theory explains international trade purely on differences in labour productivity?
+A) Heckscher-Ohlin theory
+B) Ricardian comparative advantage theory
+C) Opportunity cost theory
+D) Gravity model
+Ans: B
+Exp: David Ricardo's classical comparative advantage theory attributes differences in relative costs solely to international differences in labour productivity.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+: 45. Voluntary export restraints are classified as:
+A) Tariff-based barriers
+B) Non-tariff trade barriers
+C) Export subsidies
+D) Trade liberalization measures
+Ans: B
+Exp: Voluntary Export Restraints (VERs) are non-tariff volume measures where an exporting nation agrees to limit export quantities to an importing nation.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+: 46. Modes of FDI include:
+A) Export quotas only
+B) Joint ventures, mergers and greenfield investments
+C) Preferential tariffs
+D) Exchange rate controls
+Ans: B
+Exp: Foreign Direct Investment takes the form of greenfield investments, cross-border mergers and acquisitions, and equity joint ventures.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+: 47. When a government officially lowers its currency value under a fixed regime, it is called:
+A) Depreciation
+B) Devaluation
+C) Appreciation
+D) Revaluation
+Ans: B
+Exp: Devaluation is the deliberate official downward adjustment of a domestic currency's par value by authorities under a fixed exchange rate system.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+: 48. In the Cambridge cash-balance approach, money demand is expressed as:
+A) M = PT/V
+B) Md = kPY
+C) MV = PT
+D) Md = rY
+Ans: B
+Exp: The Cambridge cash-balance formulation expresses transaction demand for money as Md = kPY, where k is the proportion of nominal income held in cash.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+: 49. A key objective of monetary policy is to:
+A) Eliminate the banking system
+B) Achieve price stability and sustainable growth
+C) Set tax policy
+D) Fix stock market indices
+Ans: B
+Exp: The primary mandate of modern central bank monetary policy is to preserve price stability while supporting sustainable economic growth.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+: 50. A tax imposed equal to the external marginal cost of pollution is called a:
+A) Tariff
+B) Pigouvian tax
+C) Subsidy
+D) Excise duty
+Ans: B
+Exp: A Pigouvian tax is levied on an activity creating negative externalities (such as pollution) equal to the marginal external damage to restore social efficiency.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+Q: 51. In the case of a straight-line demand curve meeting the two axes, the price elasticity of demand at y-axis of the line would be equal to:
+A) 1
+B) Infinity
+C) 3
+D) 1.25
+Ans: B
+Exp: At the vertical intercept (y-axis) of a linear downward-sloping demand curve, price elasticity of demand is infinity (lower segment / upper segment = non-zero / 0 = ∞).
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+Q: 52. Average fixed cost cannot be:
+A) less than one
+B) One
+C) Zero
+D) Greater than one
+Ans: C
+Exp: Average Fixed Cost (AFC = TFC / Q) continually declines as output increases, but can never touch the horizontal axis or become zero since TFC is always positive.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+Q: 53. If firm's average cost is falling then marginal curve must be:
+A) falling
+B) Rising
+C) below average cost curve
+D) None of the above
+Ans: C
+Exp: Whenever Average Cost is falling, Marginal Cost must lie below the Average Cost curve, regardless of whether MC is falling or rising.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+Q: 54. When two goods are perfect substitutes of each other then:
+A) MRS is falling
+B) MRS is rising
+C) MRS is constant
+D) None of the above
+Ans: C
+Exp: For perfect substitutes, the consumer is willing to substitute one good for another at a fixed ratio, resulting in a constant Marginal Rate of Substitution (straight-line indifference curve).
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+Q: 55. In Perfect Competition Utilization of resources is:
+A) Partial
+B) Moderate
+C) Full
+D) Over
+Ans: C
+Exp: In long-run equilibrium under perfect competition, firms produce at the minimum point of their Long-Run Average Cost (LAC) curve, achieving full utilization of resources without excess capacity.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+Q: 56. Economic Cost means:
+A) Accounting cost + Implicit cost
+B) Accounting cost + Marginal Cost
+C) Cash cost + Opportunity Cost
+D) Implicit cost
+Ans: A
+Exp: Economic Cost is the sum of explicit accounting costs (contractual out-of-pocket expenses) and implicit costs (opportunity costs of owner-supplied factors).
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+Q: 57. The cost incurred on the factor of production is known as:
+A) Accounting cost
+B) Economic Cost
+C) Marginal Cost
+D) Implicit Cost
+Ans: A
+Exp: The explicit payments made by an employer to factor owners for purchasing or hiring factor services are recorded as Accounting Costs.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+Q: 58. The share of concessional debt in total debt external debt of India has:
+A) Remained the same
+B) Doubled
+C) Reduced
+D) Increased
+Ans: C
+Exp: As India's economic growth progressed and commercial external borrowings expanded, the proportionate share of concessional debt in India's total external debt steadily declined.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+Q: 59. Soap Industry is an Example of:
+A) Oligopoly
+B) Perfect Competition
+C) Monopolistic Competition
+D) Monopoly
+Ans: C
+Exp: The soap industry consists of numerous manufacturing firms producing close, but branded and differentiated substitutes, which characterizes Monopolistic Competition.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+Q: 60. A Purely competitive firm's supply schedule in the short run is determined by:
+A) Its average revenue
+B) Its marginal revenue
+C) Its marginal cost curve
+D) Marginal Utility for money curve
+Ans: C
+Exp: In the short run, a competitive firm's supply curve is given by that portion of its Marginal Cost (MC) curve that lies above the minimum Average Variable Cost (AVC).
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+Q: 61. The basic distinction between M1 and M2 is in the:
+A) Treatment of Post Office Deposit
+B) Treatment of time deposits of banks
+C) Treatment of saving deposits of banks
+D) Treatment of Currency
+Ans: A
+Exp: M1 comprises currency and demand deposits, while M2 expands M1 by including post office savings bank deposits.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+Q: 62. All are features of monopoly except:
+A) There is a single seller
+B) The firm is a price taker
+C) The Firm Produces a unique product
+D) The existence of some advertising
+Ans: B
+Exp: A monopolist is a price maker who determines the market price through output control, not a price taker.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+Q: 63. In the long run the monopolistic competitive firm has:
+A) Excess capacity
+B) Excess Profits
+C) Zero fixed cost
+D) All the above
+Ans: A
+Exp: Monopolistically competitive firms operate with excess capacity in the long run because they achieve tangency equilibrium on the falling portion of the LAC curve.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+Q: 64. Which of the following concept of budget deficit has become practically redundant in India?
+A) Fiscal deficit
+B) Budgetary deficit
+C) Primary deficit
+D) Revenue deficit
+Ans: B
+Exp: The traditional concept of Budgetary Deficit (financed via automatic ad-hoc 91-day Treasury Bills) was abolished in 1997, rendering it practically redundant.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+Q: 65. If increasing airfare increases revenue and decreasing revenue decreases then the demand for air travel has a price elasticity of:
+A) Zero
+B) Greater than zero but less than one
+C) One
+D) Greater than one
+Ans: D
+Exp: As designated in the official answer key, option (D) is provided.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+Q: 66. A monopoly who sells in two markets in which demand is not identical will be unable to maximize his profits unless he:
+A) sells below cost of production in both markets.
+B) practices price discrimination
+C) equate the volume of sales in both markets.
+D) equate marginal cost and marginal revenue in one market only.
+Ans: B
+Exp: When facing different demand elasticities across distinct consumer groups, a monopolist maximizes profits by practicing third-degree price discrimination (equating MC with MR in each submarket).
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+Q: 67. Abolition of intermediaries and tenancy reforms are both part of:
+A) Industrial reform in India
+B) External Sector reform in India
+C) Land reforms in India
+D) Banking reforms in India
+Ans: C
+Exp: Land reforms in post-independence India focused on structural institutional changes such as the abolition of Zamindari intermediaries, tenancy security, and ceiling on landholdings.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+Q: 68. If the government sets a maximum price below equilibrium price, this will likely cause:
+A) Surplus
+B) Shortage
+C) No change
+D) Increase in supply
+Ans: B
+Exp: Setting a price ceiling below the market equilibrium causes quantity demanded to exceed quantity supplied, creating an excess demand or shortage.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+Q: 69. Which economic system most emphasizes consumer choice?
+A) Capitalist
+B) Socialist
+C) Mixed
+D) Traditional
+Ans: A
+Exp: A capitalist market economy maximizes consumer sovereignty, allowing consumers' voluntary spending choices to direct what gets produced.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+Q: 70. The assumption of rationality in utility theory means consumers:
+A) Always have unlimited budgets
+B) Make choices to maximize satisfaction subject to constraints
+C) Ignore prices
+D) Spend only on one good
+Ans: B
+Exp: The postulate of rationality assumes consumers act logically to attain the highest possible utility or satisfaction within their budget constraints and given market prices.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+Q: 71. The difference between AR and MR in monopoly arises due to:
+A) Constant price
+B) Price elasticity
+C) Same price at all outputs
+D) Multiple sellers
+Ans: B
+Exp: Because a monopolist faces a downward-sloping demand curve with finite price elasticity, reducing price to expand sales lowers unit revenue across all previous units, driving MR below AR.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+Q: 72. Which market form best reflects real-world product differentiation?
+A) Perfect competition
+B) Monopoly
+C) Monopolistic competition
+D) None of these
+Ans: C
+Exp: Monopolistic competition best mirrors modern retail consumer markets where firms compete through product branding, distinctive styling, and quality variations.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+Q: 73. A liquidity trap in money demand occurs when:
+A) Money demand is perfectly inelastic
+B) Money demand is perfectly elastic
+C) Interest rates are extremely high
+D) Money supply is zero
+Ans: B
+Exp: In a liquidity trap, prevailing interest rates are at record lows and expectations of future rate hikes make the speculative demand for money perfectly interest-elastic.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+Q: 74. Which of the following is not a typical source of market failure?
+A) Imperfect information
+B) Perfect competition
+C) Market power
+D) Externalities
+Ans: B
+Exp: Perfect competition achieves efficient Pareto-optimal allocation of resources, representing an efficient market outcome rather than a market failure.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+Q: 75. Deficit financing means:
+A) Financing expenditure through borrowing
+B) Reducing taxes
+C) Increasing exports
+D) Reducing imports
+Ans: A
+Exp: Deficit financing is the budgetary practice of funding an excess of government expenditure over current revenues through public borrowing or creating new money.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+Q: 76. Which concept of national income best reflects economic welfare?
+A) Nominal GDP
+B) Net National Product at factor cost
+C) GDP at market price
+D) GNP at current prices
+Ans: B
+Exp: NNP at factor cost (National Income) accounts for capital depreciation and foreign net earnings, providing the most comprehensive measure of real national economic output and welfare.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+Q: 77. For substitutes, cross elasticity of demand is:
+A) Positive
+B) Negative
+C) Zero
+D) Always less than one
+Ans: A
+Exp: Substitute goods exhibit positive cross elasticity because an increase in the price of one good prompts buyers to switch toward the alternative product.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+Q: 78. Given TC = 2000 + 15Q - 6Q^2 + Q^3, how much is TFC at Q = 2000?
+A) 2000
+B) 975
+C) 30,000
+D) Can't be determined
+Ans: A
+Exp: Total Fixed Cost is independent of output level Q; setting Q = 0 in the total cost function shows TFC = 2000, which remains constant across all output levels.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+Q: 79. The difference between fiscal deficit and interest payment is:
+A) budget deficit
+B) primary deficit
+C) capital deficit
+D) None of these
+Ans: B
+Exp: Primary Deficit = Fiscal Deficit - Net Interest Payments. It highlights the current year's budgetary borrowing requirements excluding past debt servicing.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+Q: 80. Which exchange rate regime is adopted by highest no of IMF members?
+A) Hard Peg
+B) Floating
+C) Free Floating
+D) Soft Peg
+Ans: D
+Exp: In the IMF classification of exchange rate arrangements, soft peg arrangements (crawling pegs, stabilized arrangements, and target bands) are adopted by the largest share of member nations.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+Q: 81. Government of India recently launched 'Make in India' programme. What will be its impact on Aggregate Demand of India?
+A) Likely to increase
+B) Likely to fall
+C) No impact
+D) None of these
+Ans: A
+Exp: Initiatives that foster domestic industrial capacity stimulate private capital investment (I) and boost net export demand (X - M), expanding Aggregate Demand.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+Q: 82. A consumer's preferences are monotonic if and only if between two bundles, the consumer prefers the bundle which has:
+A) more of one of the goods
+B) less of at least one of the goods
+C) more of at least one of the goods and less of the other good
+D) more of at least one of the goods and no less of the other good.
+Ans: D
+Exp: Monotonic preferences define a consumer who consistently prefers a commodity bundle that contains more of at least one good and no less of any other good.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+Q: 83. The Finance Bill is discussed and debated in which house of parliament?
+A) The Lok Sabha
+B) The Rajya Sabha
+C) Both the Lok Sabha and Rajya Sabha
+D) The State Assemblies
+Ans: C
+Exp: While the Finance Bill can only be introduced and voted upon for final approval in the Lok Sabha, it is formally discussed and debated in both Houses of Parliament.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+Q: 84. The concept of "crowding out" refers to:
+A) The phenomenon where the demand for public goods exceeds the government's ability to provide them.
+B) Government spending on public goods leading to reduced private sector investment.
+C) The government's attempt to exclude certain individuals from accessing public
+D) The competition between private firms in providing public goods.
+Ans: B
+Exp: Crowding out occurs when debt-financed government borrowing absorbs market loanable funds, driving up interest rates and depressing private sector investment.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+Q: 85. If, in the four-sector model, aggregate consumption and taxes are greater than aggregate income, it indicates that:
+A) The economy is in equilibrium
+B) The economy is in recession
+C) The economy is facing a deficit
+D) None of these
+Ans: D
+Exp: In national income accounting, Y = C + S + T; if C + T > Y, it indicates negative private savings (dissaving), matching official key option (D).
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+Q: 86. The base year for computing the Gross Domestic Product (GDP) in India is generally revised after every:
+A) 5 years
+B) 8 years
+C) 10 years
+D) 2 years
+Ans: C
+Exp: Per the answer key, option (C) is designated for structural national accounting benchmark revisions.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+Q: 87. Reverse repo operation takes place when:
+A) RBI borrows money from banks by giving them securities
+B) banks borrow money from RBI by giving them securities
+C) banks borrow money in the overnight segment of the money market
+D) None of these
+Ans: A
+Exp: Under a reverse repo transaction, the Reserve Bank of India absorbs surplus cash from commercial banks by borrowing against eligible government securities.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+Q: 88. When we study why saving rates are high or low, we are studying:
+A) Macro Economics
+B) Microeconomics
+C) Econometrics
+D) Both (a) and (b)
+Ans: A
+Exp: The determinants of aggregate national savings, capital formation, and macroeconomic saving ratios belong to the domain of Macroeconomics.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+Q: 89. At saturation point of TU curve, the slope of TU curve is:
+A) 1
+B) Infinity
+C) Zero
+D) Positive
+Ans: C
+Exp: The slope of the Total Utility curve represents Marginal Utility (dTU/dQ = MU); at the saturation point where total satisfaction is maximized, MU equals zero.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+Q: 90. In the long run, normal profits are included in the curve:
+A) LAC
+B) LMC
+C) AFC
+D) SAC
+Ans: A
+Exp: In economic theory, normal profit is considered a necessary payment to attract entrepreneurship and is included as an implicit component of the Long-run Average Cost (LAC) curve.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+Q: 91. Trade is not possible if countries operate under:
+A) Absolute cost difference
+B) Equal cost difference
+C) Comparative cost difference
+D) None of the above
+Ans: B
+Exp: Under comparative advantage theory, if the relative cost ratios between two countries are identical (equal cost difference), neither nation possesses a comparative advantage to gain from trade.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+Q: 92. When we know that the firms must be producing at the minimum point of the average cost curve and so there will be productive efficiency:
+A) AC = AR
+B) MC = AC
+C) MC = MR
+D) AR = MR
+Ans: B
+Exp: Productive efficiency is achieved when output is produced at the minimum point of the Average Cost curve, where Marginal Cost intersects Average Cost (MC = AC).
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+: 93. Long run production function related to:
+A) Returns to a factor
+B) Returns to scale
+C) Both a and b
+D) None of these
+Ans: B
+Exp: The long-run production function assumes all factors of production are variable, which is analyzed under the laws of Returns to Scale.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+: 94. Which of the following is not a condition of perfect competition?
+A) A large number of firms
+B) Perfect mobility of factors
+C) Informative advertising to ensure that consumers have good information.
+D) Freedom of entry and exit into and out of the market
+Ans: C
+Exp: Perfect competition assumes complete product homogeneity and perfect consumer knowledge; hence, selling costs and advertisements are absent.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+: 95. Peaks and troughs of the business cycle are known collectively as:
+A) Volatility
+B) Turning points
+C) Equilibrium points
+D) Real business cycle events
+Ans: B
+Exp: The upper turning point (peak) and lower turning point (trough) represent structural shifts between expansion and contraction phases in a business cycle.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+: 96. Government borrowings from foreign governments and institutions:
+A) Capital receipt
+B) Revenue receipt
+C) Accounts for fiscal deficit
+D) Any of the above depending on the purpose of borrowing
+Ans: A
+Exp: Borrowings from external sovereign and multilateral institutions create a future repayment obligation, classifying them as Capital Receipts in the Union Budget.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+: 97. Atal Tinkering lab is an initiative by which of the following institution?
+A) Niti Aayog
+B) CBSE
+C) National Ayush Mission
+D) Reserve bank of India
+Ans: A
+Exp: Atal Tinkering Labs (ATLs) are established under the Atal Innovation Mission (AIM), an initiative spearheaded by NITI Aayog.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+: 98. Which type of investment is more influenced by government regulations and policies?
+A) FDI
+B) FPI
+C) Both FDI and FPI equally
+D) Neither FDI nor FPI
+Ans: A
+Exp: Foreign Direct Investment involves ownership in real assets, sector-specific entry limits, and long-term regulatory approvals, making it more deeply shaped by government policy.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+Q: 99. Which of the following is not a money market instrument?
+A) Treasury bills
+B) Commercial Paper
+C) Certificate of Deposit
+D) Equity Share
+Ans: D
+Exp: Equity shares are equity securities traded in the long-term Capital Market, whereas Treasury bills, Commercial Papers, and Certificates of Deposit are short-term Money Market instruments.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
+
+Q: 100. The primary source of money supply in all countries is:
+A) The Reserve Bank of India
+B) The Central bank of the country
+C) The Bank of England
+D) The Federal Reserve
+Ans: B
+Exp: In any modern economy, the sovereign Central Bank acts as the primary monetary authority responsible for issuing currency and controlling high-powered base money.
+Sub: CA Foundation MTP Series II Sept 2026
+
+---
