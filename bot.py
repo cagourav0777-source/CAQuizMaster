@@ -148,7 +148,6 @@ async def cleanup_expired_quizzes_job(context: ContextTypes.DEFAULT_TYPE) -> Non
 # ----------------- 🎯 SUBJECT PORTAL & MOCK TEST MENUS ----------------- #
 
 def get_subject_portal_keyboard() -> InlineKeyboardMarkup:
-    """Main Subject Selection Portal."""
     acc_count = len(qm.get_accounts_questions())
     acc_label = f"📊 Accounts T/F ({acc_count} Qs)" if acc_count > 0 else "📊 Accounts T/F"
 
@@ -164,7 +163,6 @@ def get_subject_portal_keyboard() -> InlineKeyboardMarkup:
     return InlineKeyboardMarkup(keyboard)
 
 def get_accounts_keyboard() -> InlineKeyboardMarkup:
-    """Builds Accounts True/False Module Selection Keyboard."""
     mod_count = qm.get_total_count_for_target("accounts_tf")
     pyq_count = qm.get_total_count_for_target("accounts_tf_last_20_attempts")
     all_count = len(qm.get_accounts_questions())
@@ -181,13 +179,10 @@ def get_accounts_keyboard() -> InlineKeyboardMarkup:
     return InlineKeyboardMarkup(keyboard)
 
 def get_quant_keyboard() -> InlineKeyboardMarkup:
-    """🎯 NEW: Builds Quantitative Aptitude Module Selection Keyboard."""
     all_quant = qm.get_quant_questions()
     total_count = len(all_quant)
 
     keyboard = []
-
-    # Show individual quant files if available
     quant_files = []
     for src in qm.quant_sources:
         q_list = qm.questions_by_source.get(src, [])
@@ -196,7 +191,7 @@ def get_quant_keyboard() -> InlineKeyboardMarkup:
             quant_files.append((src, title, len(q_list)))
 
     if quant_files:
-        for src, title, count in quant_files[:10]:  # Limit to 10 files
+        for src, title, count in quant_files[:10]:
             keyboard.append([InlineKeyboardButton(f"📐 {title} ({count} Qs)", callback_data=f"mch_{src}")])
 
         if total_count > 0:
@@ -211,7 +206,6 @@ def get_quant_keyboard() -> InlineKeyboardMarkup:
     return InlineKeyboardMarkup(keyboard)
 
 def get_economics_chapter_keyboard() -> InlineKeyboardMarkup:
-    """Builds Economics Chapter Selection Keyboard."""
     chapters = qm.get_available_chapters()
     keyboard = []
     row = []
@@ -235,7 +229,6 @@ def get_economics_chapter_keyboard() -> InlineKeyboardMarkup:
     return InlineKeyboardMarkup(keyboard)
 
 def get_pyqs_keyboard() -> InlineKeyboardMarkup:
-    """Builds PYQs Keyboard (Economics only)."""
     pyqs = qm.get_available_pyqs()
     keyboard = []
 
@@ -337,6 +330,62 @@ async def mocktest_callback_handler(update: Update, context: ContextTypes.DEFAUL
     if not chat or not user:
         return
 
+    data = query.data
+
+    # ----------------- PAUSE / RESUME / STOP CONTROLS ----------------- #
+    if data == "mpause_resume":
+        session = active_mock_tests.get(chat.id)
+        if not session or not session.get("is_paused"):
+            await query.answer("⚠️ No paused mock test found in this chat.", show_alert=True)
+            return
+
+        if chat.type in [Chat.GROUP, Chat.SUPERGROUP]:
+            if not await is_admin_or_owner(chat, user.id):
+                await query.answer("⛔ Only Group Administrators can resume the mock test.", show_alert=True)
+                return
+
+        session["is_paused"] = False
+        session["unanswered_streak"] = 0
+        session["current_question_answered"] = False
+
+        friendly_title = html.escape(session.get("friendly_title", "Mock Test"))
+        curr = session["current_index"] + 1
+        total = session["total_questions"]
+
+        await query.edit_message_text(
+            f"▶️ <b>Mock Test Resumed!</b>\n\n"
+            f"📖 <b>Module:</b> <code>{friendly_title}</code>\n"
+            f"🎯 <i>Continuing with Question {curr}/{total} in 3 seconds...</i>",
+            parse_mode=ParseMode.HTML,
+        )
+
+        context.application.job_queue.run_once(
+            send_mocktest_question_job,
+            when=config.MOCK_TEST_START_DELAY_SECONDS,
+            data=chat.id,
+            name=get_mock_job_name(chat.id),
+        )
+        return
+
+    if data == "mpause_stop":
+        session = active_mock_tests.get(chat.id)
+        if not session:
+            await query.answer("⚠️ No active mock test found.", show_alert=True)
+            return
+
+        if chat.type in [Chat.GROUP, Chat.SUPERGROUP]:
+            if not await is_admin_or_owner(chat, user.id):
+                await query.answer("⛔ Only Group Administrators can stop the mock test.", show_alert=True)
+                return
+
+        await query.edit_message_text(
+            "🛑 <b>Mock Test Stopped</b>\n\n"
+            "<i>The test has been stopped by administrator. Displaying final results...</i>",
+            parse_mode=ParseMode.HTML,
+        )
+        await finish_mock_test(context, chat.id)
+        return
+
     state = mock_setup_state.get(chat.id)
     if not state:
         await query.edit_message_text(
@@ -354,8 +403,6 @@ async def mocktest_callback_handler(update: Update, context: ContextTypes.DEFAUL
         if state.get("user_id") != user.id:
             await query.answer("⛔ Only the user who initiated /mocktest can make selections.", show_alert=True)
             return
-
-    data = query.data
 
     # Cancel
     if data == "mch_cancel":
@@ -392,7 +439,7 @@ async def mocktest_callback_handler(update: Update, context: ContextTypes.DEFAUL
         )
         return
 
-    # 2. Accounts T/F Selected -> Show Accounts Sub-Menu
+    # 2. Accounts T/F Selected
     if data == "msub_accounts":
         acc_questions = qm.get_accounts_questions()
         total_available = len(acc_questions)
@@ -577,7 +624,11 @@ async def mocktest_callback_handler(update: Update, context: ContextTypes.DEFAUL
             "time_per_question": seconds,
             "scores": {},
             "current_poll_id": None,
+            "current_message_id": None,
             "question_start_time": 0.0,
+            "unanswered_streak": 0,
+            "current_question_answered": False,
+            "is_paused": False,
         }
         active_mock_tests[chat.id] = session
 
@@ -619,7 +670,7 @@ async def custom_count_text_handler(update: Update, context: ContextTypes.DEFAUL
 
     text_input = msg.text.strip()
     total_available = state.get("total_available", 100)
-    max_allowed = min(total_available, config.MAX_QUESTIONS_PER_TEST)  # Maximum from config
+    max_allowed = min(total_available, config.MAX_QUESTIONS_PER_TEST)
 
     if not text_input.isdigit():
         await msg.reply_text(
@@ -660,12 +711,57 @@ async def send_mocktest_question_job(context: ContextTypes.DEFAULT_TYPE) -> None
     if not session:
         return
 
+    if session.get("is_paused"):
+        return
+
     idx = session["current_index"]
     total = session["total_questions"]
 
     if idx >= total:
         await finish_mock_test(context, chat_id)
         return
+
+    # Check inactivity streak from previous question
+    if idx > 0 and not session.get("current_question_answered", False):
+        session["unanswered_streak"] = session.get("unanswered_streak", 0) + 1
+        if session["unanswered_streak"] >= config.MOCK_TEST_INACTIVITY_LIMIT:
+            session["is_paused"] = True
+
+            friendly_title = html.escape(session.get("friendly_title", "Mock Test"))
+            try:
+                chat = await context.bot.get_chat(chat_id)
+                if chat.type == Chat.PRIVATE:
+                    pause_text = (
+                        f"⏸️ <b>The quiz '{friendly_title}' was paused because you stopped answering.</b>\n\n"
+                        f"<i>{config.MOCK_TEST_INACTIVITY_LIMIT} consecutive questions were left unanswered.</i>"
+                    )
+                else:
+                    pause_text = (
+                        f"⏸️ <b>The quiz '{friendly_title}' was paused because nobody answered.</b>\n\n"
+                        f"<i>{config.MOCK_TEST_INACTIVITY_LIMIT} consecutive questions were left unanswered. Group admins can resume or stop the test below:</i>"
+                    )
+            except Exception:
+                pause_text = (
+                    f"⏸️ <b>The quiz '{friendly_title}' was paused because you stopped answering.</b>\n\n"
+                    f"<i>{config.MOCK_TEST_INACTIVITY_LIMIT} consecutive questions were left unanswered.</i>"
+                )
+
+            keyboard = InlineKeyboardMarkup([
+                [InlineKeyboardButton("▶️ Resume Quiz", callback_data="mpause_resume")],
+                [InlineKeyboardButton("🛑 Stop Quiz", callback_data="mpause_stop")],
+            ])
+
+            await context.bot.send_message(
+                chat_id=chat_id,
+                text=pause_text,
+                parse_mode=ParseMode.HTML,
+                reply_markup=keyboard,
+            )
+            return
+    else:
+        session["unanswered_streak"] = 0
+
+    session["current_question_answered"] = False
 
     q_data = session["questions"][idx]
     timer_sec = session["time_per_question"]
@@ -753,16 +849,18 @@ async def poll_answer_handler(update: Update, context: ContextTypes.DEFAULT_TYPE
             user_score["correct"] += 1
             user_score["total_time"] += elapsed
 
-        # 🎯 NEW: For DM chats, immediately close poll and trigger next question after answer
+        # Mark question as answered and reset inactivity streak
+        session["current_question_answered"] = True
+        session["unanswered_streak"] = 0
+
+        # For DM chats, immediately close poll and trigger next question after answer
         try:
             chat = await context.bot.get_chat(chat_id)
             if chat.type == Chat.PRIVATE:
-                # Cancel the scheduled job for this question
                 job_name = get_mock_job_name(chat_id)
                 for job in context.application.job_queue.get_jobs_by_name(job_name):
                     job.schedule_removal()
                 
-                # Close the poll immediately
                 try:
                     message_id = session.get("current_message_id")
                     if message_id:
@@ -771,10 +869,9 @@ async def poll_answer_handler(update: Update, context: ContextTypes.DEFAULT_TYPE
                 except Exception as poll_error:
                     logger.error(f"Error closing poll: {poll_error}")
                 
-                # Immediately trigger next question with small delay
                 context.application.job_queue.run_once(
                     send_mocktest_question_job,
-                    when=1,  # 1 second delay for immediate next question
+                    when=1,
                     data=chat_id,
                     name=job_name,
                 )
@@ -790,6 +887,12 @@ async def finish_mock_test(context: ContextTypes.DEFAULT_TYPE, chat_id: int) -> 
     session = active_mock_tests.pop(chat_id, None)
     if not session:
         return
+
+    # Clean up jobs
+    name = get_mock_job_name(chat_id)
+    if context.job_queue:
+        for j in context.job_queue.get_jobs_by_name(name):
+            j.schedule_removal()
 
     # Clean up poll tracking
     if session.get("current_poll_id") in poll_to_mock_chat:
@@ -978,7 +1081,6 @@ async def start_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     chat = update.effective_chat
     user = update.effective_user
     if chat:
-        is_grp = chat.type in [Chat.GROUP, Chat.SUPERGROUP]
         await db.register_or_update_chat(chat.id, chat.title or (user.full_name if user else "User"), chat.type, is_active=False)
 
         if update.message:
@@ -1028,11 +1130,11 @@ async def broadcast_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> N
     if msg.text:
         parts = msg.text.split(None, 1)
         if len(parts) > 1:
-            raw_text = parts[1].strip()
+            raw_text = parts.strip()
     elif msg.caption:
         parts = msg.caption.split(None, 1)
         if len(parts) > 1:
-            raw_text = parts[1].strip()
+            raw_text = parts.strip()
 
     if not replied and not raw_text:
         await msg.reply_text(
@@ -1259,8 +1361,8 @@ def main() -> None:
     # 3. Live Poll Answer Listener for Mock Test Leaderboards
     app.add_handler(PollAnswerHandler(poll_answer_handler))
     
-    # 4. Interactive Callback Queries for /mocktest (including back navigation)
-    app.add_handler(CallbackQueryHandler(mocktest_callback_handler, pattern=r"^m(ch|sub|cnt|tim|back|portal)_"))
+    # 4. Interactive Callback Queries for /mocktest & Inactivity Controls (including back navigation & pause/resume/stop)
+    app.add_handler(CallbackQueryHandler(mocktest_callback_handler, pattern=r"^m(ch|sub|cnt|tim|back|portal|pause)_"))
     
     # 5. Public Commands
     app.add_handler(CommandHandler("start", start_cmd))
